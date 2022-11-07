@@ -10,7 +10,7 @@ namespace stringReverse.Controllers
             return View();
         }
 
-
+        [HttpPost]
         public ActionResult Text(TextModel model)
         {
 
